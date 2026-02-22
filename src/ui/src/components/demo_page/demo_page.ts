@@ -47,6 +47,8 @@ export class DemoPage implements OnInit {
     maxConstValueCount: 16,
     enableSubgraphSelection: true,
     enableExportToResource: true,
+    enableBackgroundTexture: true,
+    highlightAllOutputs: true,
   };
 
   ngOnInit() {
